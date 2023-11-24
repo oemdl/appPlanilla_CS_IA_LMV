@@ -38,9 +38,9 @@ namespace appPlanilla_CS_IA_LMV.bean
             ApellidoMaterno = dr["ApellidoMaterno"].ToString();
             FechaNacimiento = dr["FechaNacimiento"].ToString();
             Direccion = dr["Direccion"].ToString();
-            Correo = dr["Dni"].ToString();
-            Celular = dr["Dni"].ToString();
-            Passwordd = dr["Dni"].ToString();
+            Correo = dr["Correo"].ToString();
+            Celular = dr["Celular"].ToString();
+            Passwordd = dr["Passwordd"].ToString();
             idDomiciliado = int.Parse(dr["idDomiciliado"].ToString());
             idEstadoCivil = int.Parse(dr["idEstadoCivil"].ToString());
             idNivelEducativo = int.Parse(dr["idNivelEducativo"].ToString());

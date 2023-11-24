@@ -16,5 +16,35 @@ namespace appPlanilla_CS_IA_LMV.ui
         {
             InitializeComponent();
         }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+        }
+
+        private void txt_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_Leave(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Leave(object sender, EventArgs e)
+        {
+
+        }
     }
 }
